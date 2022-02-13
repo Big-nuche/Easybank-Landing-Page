@@ -1,0 +1,16 @@
+{
+  "name": "easy-bank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npm run scss",
+    "scss": "node-sass --watch app/js/scss -o dist",
+    "compile-css": "node-sass app/js/scss -o dist"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
